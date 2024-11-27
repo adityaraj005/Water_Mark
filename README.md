@@ -1,40 +1,46 @@
-Image Watermarker (Transparent)
+# Watermarking Application
 
-Description
+This project is a simple yet powerful watermarking application developed using Python's Tkinter and PIL libraries. It allows users to add custom text watermarks to their images with ease.
 
-	  Watermarking Application with Python
+## Features
 
-Built With
+- **Add Watermark:** Easily add custom text watermarks to your images.
+- **Image Selection:** Browse and select images from your device.
+- **User-Friendly Interface:** Simple and intuitive GUI for seamless user experience.
 
-	  This project was built using these technologies
+## Technologies Used
 
-	  Python3
-	  Pillow
-	  Tkinter
-	  PyCharm
-	  Getting Started
-	  Clone down this repository. You will need PyCharm or VS Code, and git installed globally on your machine.
+- **Python:** Programming language.
+- **Tkinter:** Used for creating the graphical user interface (GUI).
+- **PIL (Python Imaging Library):** Used for image processing.
 
-🛠 Installation and Setup
+## How to Run
 
-	  In the project directory either run:
-	  $ python3 -m pip3 install 
-	  If the pip3 is already installed, upgrade by running this command on local terminal:
-	  $ python3 -m pip3 install --upgrade pip
-	  $ python3 -m pip install --upgrade Pillow
+1. **Clone the Repository:**
 
-Instructions
+    ```bash
+    git clone https://github.com/adityaraj005/Watermarking-Application.git
+    ```
 
-	  Open the project on any IDE
-	  Upload an image to the project directory
-	  Replace the name of the image you want to watermark with "YOUR IMAGE"
-	  Replace "Sample Watermark" with a watermark text you want to see on the image.
-	  Run the app on IDE. The watermarked image will be saved it as "watermarked_image.png"
+2. **Navigate to the Project Directory:**
 
- Help
- 
-	Contact me: rajvaidyaaditya914@gmail.com
+    ```bash
+    cd Watermarking-Application
+    ```
 
-Authors
+3. **Run the Application:**
 
-	Aditya Rajvaidya
+    ```bash
+    python main.py
+    ```
+
+## Code Structure
+
+- **main.py:** The main application logic.
+- **watermark_logo.png:** Logo image used in the GUI.
+
+## Key Learnings
+
+- **Image Processing:** Learned to manipulate images using the PIL library.
+- **GUI Development:** Developed a user-friendly interface using Tkinter.
+- **Modular Code Structure:** Organized code into functions for better maintainability and reusability.
